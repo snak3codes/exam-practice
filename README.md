@@ -1,6 +1,6 @@
 # exam-practice
 
-University of Toronto 
+## University of Toronto 
 Computer Science Exam Practice Stuff (CSC148)
 
 

@@ -32,6 +32,16 @@ class LinkedList:
             rest = self.reverse_recursive(nextNode)
             nextNode.next = head
             return rest
+        
+    def reverse_iterative(self):
+        prev = None
+        curr = self._head
+        while (curr is not None):
+            next = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next
+        return prev
             
             
             
